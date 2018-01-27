@@ -2,7 +2,8 @@
 source config
 
 readonly ADR="$IP"
-readonly OPT='-t 1'
+#readonly OPT='-t 1'
+readonly OPT='-c 1'
 readonly cmd="ping ${OPT} ${ADR}"
 
 ${cmd} > /dev/null 2>&1
